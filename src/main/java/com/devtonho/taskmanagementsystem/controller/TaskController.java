@@ -23,19 +23,19 @@ public class TaskController {
         return service.saveTasks(task);
     }
 
-    @GetMapping("/products")
+    @GetMapping("/tasks")
     public List<Task> findAllTasks(){
         return service.getTasks();
     }
 
-    @GetMapping("/product/{id}")
+    @GetMapping("/task/{id}")
     public Task findTaskById(@PathVariable int id){
         return service.getTaskById(id);
     }
 
-    @GetMapping("/product/{name}")
-    public Task findTaskByName(@PathVariable String name){
-        return service.getTaskByName(name);
+    @GetMapping("/task/{description}")
+    public Task findTaskByDescription(@PathVariable String description){
+        return service.getTaskByDescription(description);
     }
 
     @PutMapping("/updateTask")

@@ -29,8 +29,8 @@ public class TaskService {
         return repository.findById(id).orElse(null);
     }
 
-    public Task getTaskByName(String name){
-        return repository.findByName(name);
+    public Task getTaskByDescription(String description){
+        return repository.findByDescription(description);
     }
 
     public String deleteTask(int id){
