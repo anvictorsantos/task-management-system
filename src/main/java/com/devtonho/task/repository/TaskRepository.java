@@ -1,6 +1,6 @@
-package com.devtonho.taskmanagementsystem.repository;
+package com.devtonho.task.repository;
 
-import com.devtonho.taskmanagementsystem.entity.Task;
+import com.devtonho.task.entity.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TaskRepository extends JpaRepository<Task, Integer> {

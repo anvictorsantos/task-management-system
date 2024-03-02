@@ -1,10 +1,10 @@
-package com.devtonho.taskmanagementsystem;
+package com.devtonho;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TaskManagementSystemApplicationTests {
+class Main {
 
 	@Test
 	void contextLoads() {

@@ -1,4 +1,4 @@
-package com.devtonho.taskmanagementsystem.entity;
+package com.devtonho.task.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

@@ -1,7 +1,7 @@
-package com.devtonho.taskmanagementsystem.controller;
+package com.devtonho.task.controller;
 
-import com.devtonho.taskmanagementsystem.entity.Task;
-import com.devtonho.taskmanagementsystem.service.TaskService;
+import com.devtonho.task.service.TaskService;
+import com.devtonho.task.entity.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

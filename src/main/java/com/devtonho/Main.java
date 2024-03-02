@@ -1,13 +1,13 @@
-package com.devtonho.taskmanagementsystem;
+package com.devtonho;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TaskManagementSystemApplication {
+public class Main {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TaskManagementSystemApplication.class, args);
+		SpringApplication.run(Main.class, args);
 	}
 
 }

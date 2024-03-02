@@ -1,7 +1,7 @@
-package com.devtonho.taskmanagementsystem.service;
+package com.devtonho.task.service;
 
-import com.devtonho.taskmanagementsystem.entity.Task;
-import com.devtonho.taskmanagementsystem.repository.TaskRepository;
+import com.devtonho.task.entity.Task;
+import com.devtonho.task.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
