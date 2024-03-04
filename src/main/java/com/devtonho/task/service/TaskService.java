@@ -2,11 +2,13 @@ package com.devtonho.task.service;
 
 import com.devtonho.task.entity.Task;
 import com.devtonho.task.repository.TaskRepository;
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@AllArgsConstructor
 @Service
 public class TaskService {
 
