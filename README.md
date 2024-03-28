@@ -24,6 +24,15 @@ A simple Spring Boot project designed for beginners to build a basic Task Manage
 4. **Delete Task:**
     - Remove tasks from the list.
 
+## Docker Usage
+
+1. Navigate to the directory containing `docker-compose.yml`.
+2. Run the following command to start the MySQL database container:
+
+```bash
+docker-compose up -d
+```
+
 ## Technologies
 
 - **Spring Boot:** Backend framework for building the application.
